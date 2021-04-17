@@ -24,6 +24,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+<distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://18.191.237.15:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
